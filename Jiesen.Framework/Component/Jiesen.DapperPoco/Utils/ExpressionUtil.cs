@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Query.Internal;
 using Remotion.Linq.Clauses;
 using Remotion.Linq.Clauses.Expressions;
 
-namespace Mondol.DapperPoco.Utils
+namespace Jiesen.DapperPoco.Utils
 {
     /// <summary>
     ///     This API supports the Entity Framework Core infrastructure and is not intended to be used

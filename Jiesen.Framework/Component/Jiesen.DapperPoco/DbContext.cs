@@ -1,22 +1,14 @@
-﻿// Copyright (c) Mondol. All rights reserved.
-// 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
-// 
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using Dapper;
-using Mondol.DapperPoco.Internal;
-using Mondol.DapperPoco.Utils;
+using Jiesen.DapperPoco.Internal;
+using Jiesen.DapperPoco.Utils;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Reflection;
-using Mondol.DapperPoco.Metadata;
 
-namespace Mondol.DapperPoco
+namespace Jiesen.DapperPoco
 {
     public abstract partial class DbContext : IDisposable, IInfrastructure<IDbContextServices>
     {

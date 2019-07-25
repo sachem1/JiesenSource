@@ -1,17 +1,8 @@
-// Copyright (c) Mondol. All rights reserved.
-// 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
-// 
-using System;
 using System.Data;
 using System.Data.Common;
-using System.Linq;
 using Dapper;
-using Mondol.DapperPoco.Utils;
 
-namespace Mondol.DapperPoco.Adapters
+namespace Jiesen.DapperPoco.Adapters
 {
     public abstract class SqlAdapter : ISqlAdapter
     {

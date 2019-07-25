@@ -1,17 +1,11 @@
-// Copyright (c) Mondol. All rights reserved.
-// 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-02-03
-// 
 using System.Data;
 using System.Data.Common;
 using System.Linq;
 using System.Text.RegularExpressions;
 using Dapper;
-using Mondol.DapperPoco.Utils;
+using Jiesen.DapperPoco.Utils;
 
-namespace Mondol.DapperPoco.Adapters
+namespace Jiesen.DapperPoco.Adapters
 {
     public class SQLiteAdapter : SqlAdapter
     {

@@ -1,16 +1,8 @@
-﻿// Copyright (c) Mondol. All rights reserved.
-// 
-// Author:  frank
-// Email:   frank@mondol.info
-// Created: 2017-01-22
-// 
+﻿
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Reflection;
-using Dapper;
 
-namespace Mondol.DapperPoco
+namespace Jiesen.DapperPoco
 {
     /// <summary>
     /// SQL语句包装类
