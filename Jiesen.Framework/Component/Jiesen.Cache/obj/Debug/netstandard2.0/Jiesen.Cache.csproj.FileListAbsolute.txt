@@ -1,0 +1,9 @@
+F:\Person\Code\JiesenSource\Jiesen.Framework\Component\Jiesen.Cache\bin\Debug\netstandard2.0\Jiesen.Cache.deps.json
+F:\Person\Code\JiesenSource\Jiesen.Framework\Component\Jiesen.Cache\bin\Debug\netstandard2.0\Jiesen.Cache.dll
+F:\Person\Code\JiesenSource\Jiesen.Framework\Component\Jiesen.Cache\bin\Debug\netstandard2.0\Jiesen.Cache.pdb
+F:\Person\Code\JiesenSource\Jiesen.Framework\Component\Jiesen.Cache\obj\Debug\netstandard2.0\Jiesen.Cache.csprojAssemblyReference.cache
+F:\Person\Code\JiesenSource\Jiesen.Framework\Component\Jiesen.Cache\obj\Debug\netstandard2.0\Jiesen.Cache.csproj.CoreCompileInputs.cache
+F:\Person\Code\JiesenSource\Jiesen.Framework\Component\Jiesen.Cache\obj\Debug\netstandard2.0\Jiesen.Cache.AssemblyInfoInputs.cache
+F:\Person\Code\JiesenSource\Jiesen.Framework\Component\Jiesen.Cache\obj\Debug\netstandard2.0\Jiesen.Cache.AssemblyInfo.cs
+F:\Person\Code\JiesenSource\Jiesen.Framework\Component\Jiesen.Cache\obj\Debug\netstandard2.0\Jiesen.Cache.dll
+F:\Person\Code\JiesenSource\Jiesen.Framework\Component\Jiesen.Cache\obj\Debug\netstandard2.0\Jiesen.Cache.pdb
