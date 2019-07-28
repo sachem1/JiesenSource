@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Component\Jiesen.DapperPoco\Jiesen.DapperPoco.csproj" />
+    <ProjectReference Include="..\Jiesen.Contract\Jiesen.Contract.csproj" />
   </ItemGroup>
 
 </Project>

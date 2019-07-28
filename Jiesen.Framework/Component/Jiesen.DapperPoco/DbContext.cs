@@ -295,7 +295,7 @@ namespace Jiesen.DapperPoco
         {
         }
 
-        protected internal virtual void OnEntitiesBuilding(EntitiesBuilder entityBuilder)
+        public virtual void OnEntitiesBuilding(EntitiesBuilder entityBuilder)
         {
         }
 
