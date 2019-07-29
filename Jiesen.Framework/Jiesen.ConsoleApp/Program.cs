@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using Jiesen.Contract.Entitys;
+using Jiesen.EntityFramework;
 
 namespace Jiesen.ConsoleApp
 {
@@ -15,6 +16,16 @@ namespace Jiesen.ConsoleApp
             TestDbContext dbContext=new TestDbContext();
             Update_Test(dbContext);
 
+            using (JiesenDbContext jiesenDbContext = new JiesenDbContext())
+            {
+                Student student=new Student(){Name = "test"};
+                jiesenDbContext.Students.Add(student);
+                jiesenDbContext.SaveChanges();
+
+
+                var result=jiesenDbContext.Students.Select(x => x.Name.Contains("te"));
+            }
+            Console.ReadLine();
         }
 
 
@@ -34,7 +45,7 @@ namespace Jiesen.ConsoleApp
             var student = dbContext.Fetch<Student>("select * from student");
 
             var student1=dbContext.QueryByProperty<Student>(student.FirstOrDefault(), x => new{x.Name});
-            Console.ReadLine();
+            
         }
     }
 }
