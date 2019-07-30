@@ -13,7 +13,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Component\Jiesen.DapperPoco\Jiesen.DapperPoco.csproj" />
     <ProjectReference Include="..\Jiesen.Contract\Jiesen.Contract.csproj" />
-    <ProjectReference Include="..\Jiesen.EntityFramework\Jiesen.EntityFramework.csproj" />
   </ItemGroup>
 
 </Project>

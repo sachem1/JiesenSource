@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jiesen.Cache.Test", "Test\J
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jiesen.DapperPoco", "Component\Jiesen.DapperPoco\Jiesen.DapperPoco.csproj", "{F35CC1B0-4D35-4B8B-B11B-465B0767E56D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jiesen.EntityFramework", "Jiesen.EntityFramework\Jiesen.EntityFramework.csproj", "{03048912-4796-4C0D-ACC6-B2E193CDB3BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jiesen.EntityFramework.Core", "Jiesen.EntityFramework.Core\Jiesen.EntityFramework.Core.csproj", "{03048912-4796-4C0D-ACC6-B2E193CDB3BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jiesen.EntityFramework", "Jiesen.EntityFramework\Jiesen.EntityFramework.csproj", "{66460FB3-798B-43BA-B9AF-1693E0F08444}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{03048912-4796-4C0D-ACC6-B2E193CDB3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03048912-4796-4C0D-ACC6-B2E193CDB3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03048912-4796-4C0D-ACC6-B2E193CDB3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66460FB3-798B-43BA-B9AF-1693E0F08444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66460FB3-798B-43BA-B9AF-1693E0F08444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66460FB3-798B-43BA-B9AF-1693E0F08444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66460FB3-798B-43BA-B9AF-1693E0F08444}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

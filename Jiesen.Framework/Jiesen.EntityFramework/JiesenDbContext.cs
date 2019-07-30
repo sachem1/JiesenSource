@@ -1,5 +1,4 @@
-﻿using Jiesen.Contract.Entitys;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure.Pluralization;
@@ -16,7 +15,7 @@ namespace Jiesen.EntityFramework
     public class JiesenDbContext : DbContext
     {
 
-        public JiesenDbContext() : base()
+        public JiesenDbContext() : base(nameOrConnectionString:"Data Source =.; Initial Catalog = Develop; User ID = sa; Password=sa1230.;Connect Timeout = 30; Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False")
         {
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<JiesenDbContext>());
         }

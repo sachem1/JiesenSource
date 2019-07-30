@@ -35,3 +35,6 @@
 /Jiesen.Framework/Component/Jiesen.DapperPoco
 /Jiesen.Framework/Jiesen.EntityFramework/obj
 /Jiesen.Framework/Jiesen.EntityFramework/bin/Debug
+/Jiesen.Framework/Jiesen.EntityFramework.Core/bin/Debug
+/Jiesen.Framework/Jiesen.EntityFramework.Core/obj
+/Jiesen.Framework/packages
